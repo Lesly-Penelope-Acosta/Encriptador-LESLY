@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
  <div class="container">
@@ -25,17 +26,30 @@
         </button>
         <input type="button" class="btn-desencriptar" value="desencriptar" onclick="desencriptar()">
       </div>
+      
     </div>
     <div class="encriptado">
         <img src="" alt="" id="muñeco">
         <div class="mensaje-encriptado" id="mensaje-encriptado">
             <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
-            <p id="parrafo">Ingrea el texto que deseas encriptar o desencriptar</p>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="menesaje"></textarea>
+            <p >Ingresa el texto que deseas encriptar o desencriptar</p>
+          
+            <div>
+              <button class="btn-copiar"  onclick="copiar() ">copiar</button>
+          </div>
+            <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="menesaje"></textarea>-->
+        
         </div>
+         <div class="hoberlai" id="hoberlai">
+
+          <p id="parrafo"></p>
+         </div>
+          
+      
      </div>
     </div>
 </div>
+<script src="index.js"></script>
 </body>
 <script src="index.js"></script>
 </html>

@@ -28,11 +28,23 @@ function mostrarResultado(resultado) {
     if (resultado.trim() === '') {
         titulo.textContent = 'Ningún mensaje encontrado';
         parrafo.textContent = 'Ingresa el texto que deseas encriptar o desencriptar';
+<<<<<<< HEAD
     } else {
         titulo.textContent = 'Mensaje encriptado';
         parrafo.textContent = resultado;
     }
 }
+=======
+         } 
+        else {
+        titulo.textContent = 'Mensaje encriptado';
+        titulo.style.marginTop = '-8em';
+        parrafo.textContent = resultado;
+        parrafo.style.color = '#0000FF';
+    }
+    
+} 
+>>>>>>> b94ff85b245127856b25a18fd675ed2e53beca9a
 
 // Función para copiar el texto encriptado al portapapeles
 function copiar() {
@@ -42,4 +54,8 @@ function copiar() {
     }).catch(err => {
         console.error('Error al copiar el texto: ', err);
     });
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b94ff85b245127856b25a18fd675ed2e53beca9a
